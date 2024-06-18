@@ -38,7 +38,7 @@ const Team = [
 for (let i = 0; i < Team.length; i++) {
   const element = Team[i];
   document.getElementById("box-card").innerHTML +=
-    '<div class="col card"> <img class="card-img-top img-fluid" src="img/' +
+    '<div class="col card border border-0"> <img class="card-img-top img-fluid" src="img/' +
     element.image +
     '" alt="People-img"><div class="card-Body"><h5 class="card-title text-center">' +
     element.name +
